@@ -1,8 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Candy from './components/candy'
+import Manufacturers from './components/Manufacturers'
 
 render(
-  <Candy />,
+  <Manufacturers />,
   document.getElementById('root'),
 )

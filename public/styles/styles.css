@@ -12,7 +12,7 @@ h1{
 
 input, select {
   border-radius: 8px;
-  border-color: #00ff00;
+  border-color: #bada55;
   font-size: 18px;
   padding: 10px;
   margin: 20px 0;
@@ -23,4 +23,8 @@ input, select {
 }
 select{
   width: 15%;
+}
+ul{
+  list-style: none;
+  color:#E79700;
 }
