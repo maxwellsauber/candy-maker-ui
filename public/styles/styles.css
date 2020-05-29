@@ -1,0 +1,30 @@
+body{
+  color: fuchsia;
+  background-color: yellow;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+h1{
+  font-size: 88px;
+}
+
+input, select {
+  border-radius: 8px;
+  border-color: #bada55;
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0;
+  outline: none;
+  width:35%;
+  display: block;
+  margin: 0 auto;
+}
+select{
+  width: 15%;
+}
+ul{
+  list-style: none;
+  color:#E79700;
+}

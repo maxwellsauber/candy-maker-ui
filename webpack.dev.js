@@ -20,4 +20,10 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js',
   },
+  plugins: [
+    new webpack.DefinePlugin({
+      API_BASE_URL: JSON.stringify('http://localhost:1339/api'),
+    })
+  ],
+
 }
