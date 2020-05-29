@@ -33,7 +33,13 @@ export default () => {
       <Search term={searchTerm} setter={setSearchTerm} />
       <ul>
         {
-          filterManufacturerList.map(manufacturer => (<Manufacturer key={manufacturer.id} name={manufacturer.name} />))
+          filterManufacturerList.map(manufacturer => (
+            <Manufacturer
+              key={manufacturer.id}
+              name={manufacturer.name}
+              country={manufacturer.country}
+            />
+          ))
         }
       </ul>
     </div>

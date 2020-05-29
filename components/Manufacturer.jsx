@@ -1,3 +1,3 @@
 import React from 'react'
 
-export default ({ id, name }) => <li key={id}>{name}</li>
+export default ({ id, name, country }) => <li key={id}>{`${name} (${country})`}</li>
